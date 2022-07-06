@@ -2,17 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    @apply font-comfortaa;
-  }
-}
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "Comfortaa", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -23,4 +17,28 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.IndexLayout {
+  @apply py-20 md:py-0 mx-auto container;
+}
+
+.IndexTitle {
+  @apply text-2xl font-light text-center pt-10 md:text-4xl
+}
+
+.NoCardSize {
+  @apply w-10/12 md:w-3/5 mx-auto max-w-2xl
+}
+
+.DefaultCard {
+  @apply w-11/12 md:w-3/5 bg-white shadow-md justify-center p-5 rounded-lg mx-auto max-w-2xl
+}
+
+.DefaultCardP0 {
+  @apply w-11/12 md:w-3/5 bg-white shadow-md justify-center rounded-lg mx-auto
+}
+
+.PromoCard {
+  @apply w-10/12 md:w-3/5 bg-white shadow-md justify-center rounded-lg mx-auto max-w-2xl
 }

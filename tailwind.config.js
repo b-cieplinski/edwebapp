@@ -8,7 +8,9 @@ module.exports = {
     fontFamily :{
       comfortaa: ['Comfortaa', 'cursive'],
     },
-    extend: {},
+    extend: {
+
+    },
   },
   plugins: [],
 }
