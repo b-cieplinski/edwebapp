@@ -2,7 +2,7 @@ import { ArrowLeftIcon, CogIcon, InformationCircleIcon, TrashIcon } from '@heroi
 import { useRouter } from 'next/router'
 import React from 'react'
 import CardAbout from '../components/Cards/CardAbout'
-import IndexHeaderBack from '../layouts/IndexHeaderBack'
+import IndexHeader from '../layouts/IndexHeader'
 import IndexNavbar from '../layouts/IndexNavbar'
 
 const Powiadomienia = () => {
@@ -10,7 +10,7 @@ const Powiadomienia = () => {
   return (
     <>
     <header>
-              <IndexHeaderBack/>
+              <IndexHeader/>
         <IndexNavbar/>
     </header>
 <main className="IndexLayout">
