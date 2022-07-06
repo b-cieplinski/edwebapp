@@ -1,12 +1,11 @@
 import React from 'react'
 import CardPMCount from '../../components/Cards/CardPMCount'
 import CardPMInvoiceHistory from '../../components/Cards/CardPMInvoiceHistory'
-import CardPMStatus from '../../components/Cards/CARDPMStatus'
-import CardPMPromo from '../../components/Cards/CARDPMPromo'
+import CardPMStatus from '../../components/Cards/CardPMStatus'
+import CardPMPromo from '../../components/Cards/CardPMPromo'
 import IndexHeader from '../../layouts/IndexHeader'
 import IndexNavbar from '../../layouts/IndexNavbar'
 import { InformationCircleIcon } from '@heroicons/react/outline'
-import Buffer from '../../layouts/Buffer'
 
 const Platnosci = () => {
   return (
