@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { CogIcon, BellIcon, UserCircleIcon, MenuAlt1Icon, XIcon, ArrowLeftIcon } from '@heroicons/react/outline'
+import { CogIcon, BellIcon, UserCircleIcon, MenuAlt1Icon, XIcon, ArrowLeftIcon, ChartBarIcon } from '@heroicons/react/outline'
 
 import Image from 'next/image'
 import { useRouter } from 'next/router';
@@ -17,9 +17,10 @@ const IndexHeader = () => {
 <div className="flex font-light text-xs ml-2">Dzien Dobry, Brandon</div>
     </div>
     <div className="flex-1 flex flex-row justify-end items-center space-x-4">
+    <div onClick={() => router.push('/prognozy')} className="cursor-pointer"><ChartBarIcon className="h-6 md:h-8 text-gray-600"/></div>
     <div onClick={() => router.push('/ustawienia-serwisu')} className="cursor-pointer"><CogIcon className="h-7 md:h-8 text-gray-600"/></div>
     <div onClick={() => router.push('/powiadomienia')} className="cursor-pointer"><BellIcon className="h-6 md:h-7 text-gray-600"/></div>
-    <div onClick={() => router.push('/profil')} className="cursor-pointer"><UserCircleIcon className="h-7 md:h-8 text-gray-600"/></div>
+    {/* <div onClick={() => router.push('/profil')} className="cursor-pointer"><UserCircleIcon className="h-7 md:h-8 text-gray-600"/></div> */}
     </div>
 
 
