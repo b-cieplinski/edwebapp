@@ -7,6 +7,7 @@ import { InformationCircleIcon } from '@heroicons/react/solid';
 import IndexNavbar from '../layouts/IndexNavbar';
 import CardHPPrice from '../components/Cards/CardHPPrice';
 import Buffer from '../layouts/Buffer'
+import CardAbout from '../components/Cards/CardAbout';
 
 const index = () => {
   return (
@@ -29,8 +30,8 @@ const index = () => {
         <div className="w-10/12 md:w-3/5 bg-white shadow-md justify-center rounded-lg mx-auto max-w-2xl">
         <CardHPPromo/>
         </div>
-        <div className="w-3/5 justify-start rounded-lg mx-auto flex pl-4 pt-8 pb-12 max-w-2xl">
-          <InformationCircleIcon className="h-5 w-5 pr-6"/>Warunki korzystania z serwisu EuroDorex
+        <div>
+          <CardAbout/>
         </div>
       </div>
     </main>

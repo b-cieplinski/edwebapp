@@ -1,6 +1,7 @@
 import { ArrowLeftIcon, CogIcon, InformationCircleIcon, TrashIcon } from '@heroicons/react/outline'
 import { useRouter } from 'next/router'
 import React from 'react'
+import CardAbout from '../components/Cards/CardAbout'
 import IndexHeaderBack from '../layouts/IndexHeaderBack'
 import IndexNavbar from '../layouts/IndexNavbar'
 
@@ -44,9 +45,9 @@ const Powiadomienia = () => {
           
         </div>
 
-        <div className="w-3/5 justify-start rounded-lg mx-auto flex pl-4 pt-8 pb-12">
-          <InformationCircleIcon className="h-5 w-5 pr-6"/>Warunki korzystania z serwisu EuroDorex
-        </div>
+          <div>
+            <CardAbout/>
+          </div>
         </div>
     </main>
     </>

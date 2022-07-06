@@ -1,4 +1,5 @@
 import React from 'react'
+import CardAbout from '../components/Cards/CardAbout'
 import CardSetLoginData from '../components/Cards/CardSetLoginData'
 import LoginData from '../components/Settings/LoginData'
 import IndexHeaderBack from '../layouts/IndexHeaderBack'
@@ -21,7 +22,9 @@ const Ustawieniaserwisu = () => {
 <div className="pb-8">
             <LoginData/>
         </div>
-        
+        <div>
+          <CardAbout/>
+        </div>
     </main>
     </>
   )

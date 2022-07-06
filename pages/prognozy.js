@@ -1,5 +1,6 @@
 import { InformationCircleIcon } from '@heroicons/react/outline'
 import React from 'react'
+import CardAbout from '../components/Cards/CardAbout'
 import IndexHeader from '../layouts/IndexHeader'
 import IndexNavbar from '../layouts/IndexNavbar'
 
@@ -31,8 +32,8 @@ const Dlaciebie = () => {
 Orlen
         </div>
         </div>
-        <div className="w-3/5 justify-start rounded-lg mx-auto flex pl-4 pt-8 pb-12">
-          <InformationCircleIcon className="h-5 w-5 pr-6"/>Warunki korzystania z serwisu EuroDorex
+        <div>
+          <CardAbout/>
         </div>
       </div>
     </main>

@@ -6,6 +6,7 @@ import CardPMPromo from '../../components/Cards/CardPMPromo'
 import IndexHeader from '../../layouts/IndexHeader'
 import IndexNavbar from '../../layouts/IndexNavbar'
 import { InformationCircleIcon } from '@heroicons/react/outline'
+import CardAbout from '../../components/Cards/CardAbout'
 
 const Platnosci = () => {
   return (
@@ -30,8 +31,8 @@ const Platnosci = () => {
         <div className="PromoCard">
         <CardPMPromo/>
         </div>
-        <div className="w-11/12 md:w-10/12 justify-start rounded-lg mx-auto flex pl-4 pt-8 pb-12">
-          <InformationCircleIcon className="h-5 w-5 pr-6"/>Warunki korzystania z serwisu EuroDorex
+        <div>
+          <CardAbout/>
         </div>
         </div>
     </main>

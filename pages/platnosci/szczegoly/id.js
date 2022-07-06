@@ -6,6 +6,7 @@ import IndexNavbar from '../../../layouts/IndexNavbar'
 import { useRouter } from 'next/router'
 import CardPMDetails from '../../../components/Cards/CardPMDetails'
 import CardHelpPayment from '../../../components/Cards/CardHelpPayment'
+import CardAbout from '../../../components/Cards/CardAbout'
 
 const Szczegoly = () => {
     const router = useRouter();
@@ -36,9 +37,9 @@ const Szczegoly = () => {
     <div className="PromoCard">
     <CardPMPromo/>
     </div>
-    <div className="w-3/5 justify-start rounded-lg mx-auto flex pl-4 pt-8 pb-12">
-      <InformationCircleIcon className="h-5 w-5 pr-6"/>Warunki korzystania z serwisu EuroDorex
-    </div>
+      <div>
+        <CardAbout/>
+      </div>
     </div>
 </main>
 </>

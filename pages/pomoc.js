@@ -2,7 +2,7 @@ import { CakeIcon, ChevronRightIcon } from '@heroicons/react/outline'
 import React from 'react'
 import IndexHeader from '../layouts/IndexHeader'
 import IndexNavbar from '../layouts/IndexNavbar'
-import Buffer from '../layouts/Buffer'
+import CardAbout from '../components/Cards/CardAbout';
 
 const Pomoc = () => {
   return (
@@ -32,6 +32,9 @@ const Pomoc = () => {
             <p className="text-xl">Sprawdź co nowego w serwisie</p>
             <ChevronRightIcon className="w-5"/>
         </button>
+        <div>
+            <CardAbout/>
+        </div>
         </main> 
     </>
   )
