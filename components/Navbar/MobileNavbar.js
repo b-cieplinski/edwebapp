@@ -24,10 +24,10 @@ const IndexNavbarMobile = () => {
                 <ChartBarIcon className="h-7"/>
                 <p className="text-xs">Prognozy</p>
             </div>
-            <div className="flex flex-col cursor-pointer" onClick={() => router.push('/profil')}>
+            {/* <div className="flex flex-col cursor-pointer" onClick={() => router.push('/profil')}>
                 <UserIcon className="h-7"/>
                 <p className="text-xs">Profil</p>
-            </div>
+            </div> */}
             <div className="flex flex-col cursor-pointer" onClick={() => router.push('/pomoc')}>
                 <InformationCircleIcon className="h-7"/>
                 <p className="text-xs">Pomoc</p>
